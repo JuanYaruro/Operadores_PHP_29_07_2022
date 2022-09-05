@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="sp">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Operadores_PHP_29_07_2022</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js"></script>
+    <link rel="shortcut icon" href="https://juanpabloyaruroespinosa.000webhostapp.com/img/IconoCalculadora.png" type="image/x-icon"/>
+</head>
+
+<body>
+    <form id="calculadora" action="https://juanpabloyaruroespinosa.000webhostapp.com/Operadores_PHP_29_07_2022/api.php" method="POST" data-operador>
+        <input name="resultado" type="text" required pattern="[0123456789./*+-]+">
+        <div id="numeros">
+            <input type="button" value="1">
+            <input type="button" value="2">
+            <input type="button" value="3">
+            <input type="button" value="4">
+            <input type="button" value="5">
+            <input type="button" value="6">
+            <input type="button" value="7">
+            <input type="button" value="8">
+            <input type="button" value="9">
+            <input type="button" value="0">
+            <input type="button" value="00">
+            <input type="button" value=".">
+        </div>
+        <div>
+            <button value="suma">+</button>
+            <button value="resta">-</button>
+            <button value="multiplicacion">*</button>
+            <button value="divicion">/</button>
+            <button value="">C</button>
+            <input type="submit" value="=">
+        </div>
+    </form>
+    <pre id="resultado">
+    </pre>
+    <div> Iconos diseñados por <a href="https://www.freepik.com" title="Freepik"> Freepik </a> from <a
+            href="https://www.flaticon.es/" title="Flaticon">www.flaticon.es'</a></div>
+
+</body>
+
+</html>
